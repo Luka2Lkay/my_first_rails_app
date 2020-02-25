@@ -1,0 +1,20 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/lukhanyo/odin_on_rails/my_first_rails_app
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :README.md
+> git ls-files --stage -- /home/lukhanyo/odin_on_rails/my_first_rails_app/README.md
+> git cat-file -s 7db80e4ca1bf849701dce58a63f09a102cb9f931
+> git show :config.ru
+> git ls-files --stage -- /home/lukhanyo/odin_on_rails/my_first_rails_app/config.ru
+> git cat-file -s f7ba0b527b16a6f539991825ecd72c2e9b6e3af0
