@@ -364,3 +364,4 @@ X Protocol Version 11, Revision 0
 [    37.274] (II) No input driver specified, ignoring this device.
 [    37.274] (II) This device may have been added with another device file.
 [  4535.221] (II) event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[  6619.386] (II) event4  - ImExPS/2 Generic Explorer Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.10.4/button_debouncing.html for details
