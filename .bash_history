@@ -39,3 +39,13 @@ git clone https://github.com/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.Rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 exit
+pwd /home/you/odin_on_rails/my_first_rails_app
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin <https://github.com/Luka2Lkay/my_first_rails_app.git
+git push -u origin master
+git remote add origin <git@github.com:Luka2Lkay/my_first_rails_app.git>
+git remote add origin git@github.com:Luka2Lkay/my_first_rails_app.git
+git push -u origin master
+yes
